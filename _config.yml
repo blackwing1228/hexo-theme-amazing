@@ -13,22 +13,22 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: 黑翼
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url: http://blog.blackwing.top/
         # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: /img/avatar.png
+        image: /img/avatar.jpg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 辣椒の酱
+        site_name: 黑翼
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: BlackWing
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
@@ -49,7 +49,7 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: 黑翼
         # Page description (optional)
         # You should leave this blank for most of the time
         description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
@@ -58,10 +58,10 @@ head:
         url: https://removeif.github.io/
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: BlackWing
         # Page images (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: /img/avatar.png
+        image: /img/avatar.jpg
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
@@ -182,13 +182,13 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: 辣椒の酱
+        author: 黑翼
         # Title of the author to be shown in the profile widget
-        author_title: 尚未执佩剑，转眼即江湖
+        author_title: 止于至善
         # Author's current location to be shown in the profile widget
-        location: 阿尔及利亚
+        location: 艾恩葛朗特
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: /img/avatar.png
+        avatar: /img/avatar.jpg
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
@@ -265,13 +265,13 @@ widgets:
 #        client_id: ''
 #        # AdSense AD unit ID
 #        slot_id: ''
-    - 
-        # position: right
-        # type: notice
-        # contents: 
-        #     1: 2019.8.15 <a href="https://github.com/removeif/hexo-theme-amazing" target="_blank">主题开源</a>
-        #     2: 2020.5.20 添加公告widget
-        #     3: 2020.5.21 公告测试
+    # - 
+    #     position: right
+    #     type: notice
+    #     contents: 
+    #         1: 2019.8.15 <a href="https://github.com/removeif/hexo-theme-amazing" target="_blank">主题开源</a>
+    #         2: 2020.5.20 添加公告widget
+    #         3: 2020.5.21 公告测试
 # Plugin configurations
 plugins:
     # Enable page startup animations
@@ -346,7 +346,7 @@ comment:
 #     avatar: 'mp'
 #     placeholder: '留下您的高见！'
 #     has_latest_comment: true #是否有最新评论 true-有，false-无
-#     owner: 辣椒の酱 #博主名 最新评论标注[博主]
+#     owner: 黑翼 #博主名 最新评论标注[博主]
 #     required_fields: ['nick', 'mail', 'link']
 #     lang: en #zh-CN zh-TW en ja
 
