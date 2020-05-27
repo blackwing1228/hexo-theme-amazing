@@ -327,11 +327,11 @@ providers:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: removeif         # (required) GitHub user name
+    owner: BlackWing         # (required) GitHub user name
     repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
+    client_id: 59438b320d759d1b84c1     # (required) OAuth application client id
+    client_secret: cec0324825c9830c2143b8388c2d97e5aa68a821 # (required) OAuth application client secret
+    admin: ['blackwing1228']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
