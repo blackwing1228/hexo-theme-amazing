@@ -373,7 +373,7 @@ has_copyright: true # 文中是否显示copyright true开启，false-关闭
 # http://sachinchoolur.github.io/lightGallery/docs/api.html 
 lightgallery_is_full: true #图片灯箱是否显示完整的插件(包括放大，分享等)，true-显示，false-显示简洁版
 
-website_start_time: 2018/11/11 00:00:00 #网站运行开始时间,不填不显示
+website_start_time:  #网站运行开始时间,不填不显示
 
 footer_registered_no: #川ICP备88888888号-8 #备案号
 
@@ -383,6 +383,6 @@ has_live_2D_switch: true #live2D开关 true-开 false-关
 
 side_music_netease_id: 2364053447 #侧边栏网易云歌单id
 
-use_pjax: false #是否开启pjax，false-不开启，true-开启，开启后局部更新网页信息，切换页面背景音乐不间断等特性
+use_pjax: true #是否开启pjax，false-不开启，true-开启，开启后局部更新网页信息，切换页面背景音乐不间断等特性
 
 index_show_tags_cateories: true #首页文章item面板是否显示tag和categories
