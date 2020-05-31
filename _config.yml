@@ -1,7 +1,8 @@
 # Version of the configuration file
-version: 1.0.0
+version: 3.0.0
 # Path or URL to the website's logo
-logo: /img/logo.png
+logo:
+    /img/logo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -31,7 +32,7 @@ head:
         author: BlackWing
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 前端,App,iOS,Android,React,Vue.js
+        description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
         # Twitter card type (twitter:card)
         twitter_card:
         # Twitter ID (twitter:creator)
@@ -52,10 +53,10 @@ head:
         title: 黑翼
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: 前端,App,iOS,Android,React,Vue.js
+        description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: http://blog.blackwing.top/
+        url: https://removeif.github.io/
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: BlackWing
@@ -285,7 +286,8 @@ plugins:
         tracking_id:
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: true
+    # 网页计数插件
+    busuanzi: false
     # Enable the lightGallery and Justified Gallery plugins
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
     gallery: true
@@ -327,11 +329,11 @@ providers:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: BlackWing         # (required) GitHub user name
+    owner: removeif         # (required) GitHub user name
     repo: blog_comment          # (required) GitHub repository name
-    client_id: 59438b320d759d1b84c1     # (required) OAuth application client id
-    client_secret: cec0324825c9830c2143b8388c2d97e5aa68a821 # (required) OAuth application client secret
-    admin: ['blackwing1228']
+    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
+    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
+    admin: ['removeif']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
@@ -377,7 +379,7 @@ website_start_time:  #网站运行开始时间,不填不显示
 
 footer_registered_no: #川ICP备88888888号-8 #备案号
 
-footer_copyright_dsec: © 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /> #footer 版权说明 可自由配置
+footer_copyright_dsec: © 版权说明：[本网站所有内容均收集于互联网或自己创作，方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /> #footer 版权说明 可自由配置
 
 has_live_2D_switch: true #live2D开关 true-开 false-关
 
@@ -385,4 +387,4 @@ side_music_netease_id: 2364053447 #侧边栏网易云歌单id
 
 use_pjax: true #是否开启pjax，false-不开启，true-开启，开启后局部更新网页信息，切换页面背景音乐不间断等特性
 
-index_show_tags_cateories: true #首页文章item面板是否显示tag和categories
+index_show_tags_cateories: true #首页文章item面板是否显示tag和categories © 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /> #footer 版权说明 可自由配置

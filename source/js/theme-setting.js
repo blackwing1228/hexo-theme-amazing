@@ -20,6 +20,7 @@ var isNight=isNightFun();
 // 参考自 https://www.imaegoo.com/
 var nightNav;
 var nightIcon;
+var logoImgIds = [];
 
 function applyNight(value) {
     if (value == 'true') {
@@ -27,17 +28,30 @@ function applyNight(value) {
         if (nightIcon) {
             nightIcon.className = nightIcon.className.replace(/ fa-moon/g, '') + ' fa-lightbulb'
         }
+        logoImgIds.forEach(logoImgId => {
+            var logoImg = document.getElementById(logoImgId);
+            if (logoImg && logoImg.tagName === "IMG") {
+                logoImg.src = logoImg.src.replace(/\/\w+\./g, '$&find').replace('.find', '_night.');;
+            }
+        });
     } else {
         document.body.className = document.body.className.replace(/ night/g, '')
         if (nightIcon) {
             nightIcon.className = nightIcon.className.replace(/ fa-lightbulb/g, '') + ' fa-moon'
         }
+        logoImgIds.forEach(logoImgId => {
+            var logoImg = document.getElementById(logoImgId);
+            if (logoImg && logoImg.tagName === "IMG") {
+                logoImg.src = logoImg.src.replace(/_night/g, '');
+            }
+        });
     }
 }
 
 function findNightIcon() {
     nightNav = document.getElementById('night-nav');
     nightIcon = document.getElementById('night-icon');
+    logoImgIds = ['navbar-logo', 'footer-logo'];
     if (!nightNav || !nightIcon) {
         setTimeout(findNightIcon, 100);
     } else {

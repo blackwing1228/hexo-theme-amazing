@@ -45,7 +45,7 @@ class Footer extends Component {
                 <div class="level">
                     <div class="level-start">
                         <a class="footer-logo is-block mb-2" href={siteUrl}>
-                            {logo && logo.text ? logo.text : <img src={logoUrl} alt={siteTitle} height="28" />}
+                            {logo && logo.text ? logo.text : <img id="footer-logo" src={logoUrl} alt={siteTitle} height="28" />}
                         </a>
                         <p class="size-small">
                             <span dangerouslySetInnerHTML={{ __html: `&copy; ${siteYear} ${author || siteTitle}` }}></span>

@@ -113,7 +113,6 @@ module.exports = class extends Component {
             <Head env={env} site={site} config={config} helper={helper} page={page} />
             <body class={`is-${columnCount}-column has-navbar-fixed-top`}>
                 <Navbar config={config} helper={helper} page={page} />
-                <script type="text/javascript" src={my_cdn(url_for('/js/theme-setting.js'))}></script>
                 <section class="section">
                     <div class="container">
                         <div class="columns">
@@ -134,6 +133,7 @@ module.exports = class extends Component {
                 <Footer config={config} helper={helper} />
                 <Scripts site={site} config={config} helper={helper} page={page} />
                 <Search config={config} helper={helper} />
+                <script type="text/javascript" src={my_cdn(url_for('/js/theme-setting.js'))}></script>
                 {use_pjax ? <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script> : null}
                 {use_pjax ? <script type="text/javascript" dangerouslySetInnerHTML={{ __html: pjaxJs }}></script> : null}
             </body>
